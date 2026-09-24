@@ -1,0 +1,6 @@
+# Only the files of the release are tracked.
+*
+!.gitignore
+!TheWarriors.asl
+!README.md
+!LICENSE
