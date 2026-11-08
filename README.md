@@ -20,11 +20,27 @@ bug report can say exactly which version was running.
 
 ## Installing
 
+There are two ways to load the script. Use only one of them: with both,
+LiveSplit runs two copies of the script and every split comes in twice.
+
+**From the Splits Editor.** Right-click LiveSplit → **Edit Splits...**, make
+sure **Game Name** is `The Warriors`, and click **Activate**. LiveSplit
+downloads the latest release by itself and keeps it up to date. **Settings**,
+next to it, opens the script's options, and they are saved with your splits.
+
+**From a file, in the layout.** Download `TheWarriors.asl` from the
+[latest release](https://github.com/mostdak1ng/The-Warriors-Autosplitter/releases/latest),
+then:
+
 1. Right-click LiveSplit → **Edit Layout** → **+** → **Control** →
    **Scriptable Auto Splitter**.
 2. Double-click the new component → **Browse** → pick `TheWarriors.asl`.
-3. Leave **Start**, **Split** and **Reset** ticked at the top, and choose the
-   script's options below them (see [Settings](#settings)).
+
+The options are then saved with the layout, and a new version means
+downloading the file again.
+
+Either way, leave **Start**, **Split** and **Reset** ticked at the top, and
+choose the script's options below them (see [Settings](#settings)).
 
 By default the script switches LiveSplit to **Game Time** the first time it
 finds the game, because that is where it keeps its time. To go
